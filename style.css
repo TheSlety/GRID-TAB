@@ -38,32 +38,11 @@ body {
     gap: 20px;
 }
 
-
-.column2 {
-    display: grid;
-    gap: 20px;
-}
-
-.column3 {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 2fr;
-    gap: 20px;
-}
-
-.column4 {
-    display: grid;
-    gap: 20px;
-}
-
-.column5 {
-    display: grid;
-    grid-template-rows: auto;
-    gap: 20px;
-}
-
+.column2,
+.column3,
+.column4,
+.column5,
 .column6 {
     display: grid;
-    grid-template-rows: auto;
     gap: 20px;
 }
