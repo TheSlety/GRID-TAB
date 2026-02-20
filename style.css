@@ -28,7 +28,7 @@ body {
     align-items: center;
 }
 
-.column1>* {
+.column1 * {
     flex: 1;
 }
 
