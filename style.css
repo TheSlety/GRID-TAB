@@ -27,6 +27,10 @@ body {
     align-items: center;
 }
 
+.column1>* {
+    flex: 1;
+}
+
 .column1 {
     height: 100%;
     display: flex;
@@ -34,9 +38,6 @@ body {
     gap: 20px;
 }
 
-.column1>* {
-    flex: 2;
-}
 
 .column2 {
     display: grid;
